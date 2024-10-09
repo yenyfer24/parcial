@@ -1,14 +1,54 @@
 {
-    "futbolista": [
+    "futbolistas": {
+        "id_futbolista": 11111,
+        "nombre_futbolista": "nom futbolista",
+        "nacionalidad": "",
+        "activo": true
+    },
+    "historico_equipos": [
         {
-            "id_futbolista":1,
-            "nombre":"",
-            "activo":"si",
-            
+            "nombre_equipo": "nombre_equipo_1",
+            "periodo_estancia": {
+                "inici": "",
+                "fin": ""
+            }
+        },
+        {
+            "nombre_equipo": "nombre_equipo_2",
+            "periodo_estancia": {
+                "inici": "",
+                "fin": ""
+            }
+        }
+    ],
+    "partidos_jugados": [
+        {
+            "fecha_partido": "",
+            "hora": "",
+            "estadio": "",
+            "goles": "",
+            "tarjetas_amarillas": "",
+            "tarjetas_rojas": "",
+            "tiros_libres": "",
+            "tiros_esquina": "",
+            "cantidad_faltas": "",
+            "arbito": [
+                {
+                    "nombre_arbito": "",
+                    "nacionalidad": "",
+                    "tipo": "central"
+                },
+                {
+                    "nombre_arbito": "",
+                    "nacionalidad": "",
+                    "tipo": "lateral derecha"
+                },
+                {
+                    "nombre_arbito": "",
+                    "nacionalidad": "",
+                    "tipo": "lateral izquierda"
+                }
+            ]
         }
     ]
-    
-    
 }
-
-
